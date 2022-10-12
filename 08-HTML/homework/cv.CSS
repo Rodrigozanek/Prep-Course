@@ -1,0 +1,13 @@
+*{
+    font-family: sans-serif;
+}
+
+body{
+    background-color: azure;
+}
+
+div{
+    padding: 1em;
+    margin: 0px auto;
+    width: 50%;
+}
