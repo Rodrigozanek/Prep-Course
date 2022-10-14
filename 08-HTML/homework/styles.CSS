@@ -5,19 +5,17 @@ h1 {
 img {
     width: 400px;
 }
-.thirdDiv {
+#thirdDiv {
     width: 600px;
-    height: 500;
-    background-color: rgb(10, 71, 183);
+    height: 550px;
+    background-color: rgba(5, 56, 152, 0.604);
+    padding: 50px;
+    border: 3px solid black
 }
 #spanId{
     margin: 50px;
-    font-size: 23px;
+    font-size: 18px;
     color: white;
-}
-#thirdDiv {
-    padding: 50px;
-    border: 5px solid black
 }
 body{
     background-image:url('https://img.freepik.com/foto-gratis/fondo-gris-pintado-textura-metal_125540-779.jpg?w=740&t=st=1665265588~exp=1665266188~hmac=4162e3400c9168061bed0404ff1f0811438d8234b2ecfa35d001f2f59c6d6022')
