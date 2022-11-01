@@ -24,7 +24,7 @@ function numberOfCharacters(string) {
   //Ej: Recibe ---> "adsjfdsfsfjsdjfhacabcsbajda" || Devuelve ---> { a: 5, b: 2, c: 2, d: 4, f: 4, h:1, j: 4, s: 5 } 
   //Escribe tu código aquí
   let objeto = {};
-  for(var i = 0; i < string.length; i++){
+  for(let i = 0; i < string.length; i++){
     if(!objeto[string[i]]){
       objeto[string[i]] = 1;
     }else{
@@ -42,7 +42,7 @@ function capToFront(s) {
   //Escribe tu código aquí
   let mayusculas = '';
   let minusculas = '';
-  for( var i = 0; i < s.length; i++){
+  for( let i = 0; i < s.length; i++){
     if(s[i] === s[i].toUpperCase()){
       mayusculas = mayusculas + s[i];
     }else{
